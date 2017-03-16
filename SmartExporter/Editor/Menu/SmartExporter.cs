@@ -5,7 +5,7 @@ public class SmartExporter
 {
     #region PRIVATE_VARIABLES
 
-    private const string menuTitle = "Assets/Playflock/SmartExport";
+    private const string menuTitle = "Assets/IndieYP/SmartExport";
 
     #endregion
 
