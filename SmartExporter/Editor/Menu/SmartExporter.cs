@@ -38,5 +38,6 @@ public class SmartExporter
             return;
         AssetDatabase.ExportPackage(assetPathNames, savePath, exportPackageOptions);
         EditorUtility.DisplayDialog("Export done", "To path : " + savePath, "OK");
+        EditorUtility.RevealInFinder( savePath );
     }
 }
